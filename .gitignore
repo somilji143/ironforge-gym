@@ -1,6 +1,28 @@
-node_modules
-dist
-.DS_Store
-*.local
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
 .env
 .env.*
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Netlify cache
+.netlify/
+
+# TypeScript build info
+tsconfig.tsbuildinfo
